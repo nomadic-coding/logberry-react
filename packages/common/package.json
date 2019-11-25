@@ -1,0 +1,41 @@
+{
+  "name": "@wow/common",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "build": "rimraf dist && tsc",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react-native": "^0.60.22",
+    "@types/socket.io-client": "^1.4.32",
+    "apexcharts": "^3.10.1",
+    "concurrently": "^5.0.0",
+    "mobx": "5.9.0",
+    "mobx-react-lite": "1.0.1",
+    "nodemon": "^1.19.4",
+    "prop-types": "^15.7.2",
+    "react": "^16.11.0",
+    "react-apexcharts": "^1.3.3",
+    "react-native": "^0.61.4",
+    "react-native-chart-kit": "^3.13.0",
+    "react-native-svg": "^9.13.3",
+    "use-socket.io-client": "^1.0.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.7.4",
+    "@babel/core": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-numeric-separator": "^7.7.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.4",
+    "rimraf": "^3.0.0",
+    "typescript": "^3.7.2"
+  }
+}
